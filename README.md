@@ -40,11 +40,11 @@ bellabeat-case-study/
 │   ├── steps_vs_sleep_quality.png
 │
 ├── notebooks/
-│   ├── bellabeat_analysis.Rmd
-│   └── bellabeat_analysis.html
+│   ├── bellabeat-casestudy.ipynb
+│   
 │
 ├── reports/
-│   └── bellabeat_final_report.pdf
+│   └── Bellabeat Smart Device Data Analysis Report.pdf
 │
 └── README.md
 ```
@@ -66,14 +66,14 @@ bellabeat-case-study/
      - `weight_vs_steps.png`: Scatter plot of weight versus total steps.
      - `steps_vs_sleep_quality.png`: Scatter plot of total steps versus sleep quality.
 
-3. **Notebooks Folder** (`/notebooks/`):
+3. **Notebooks Folder** (`bellabeat-casestudy.ipynb`):
    - Contains the R Markdown and rendered HTML of the analysis:
-     - `bellabeat_analysis.Rmd`: The R Markdown file used to run the data analysis.
-     - `bellabeat_analysis.html`: The rendered HTML version of the analysis, which can be viewed in a browser.
+     - `bellabeat-casestudy.ipynb`: The R Markdown file used to run the data analysis.
+   
 
-4. **Reports Folder** (`/reports/`):
+4. **Reports Folder** (`Bellabeat Smart Device Data Analysis Report.pdf`):
    - Contains the final report summarizing the entire case study, including visualizations and key insights:
-     - `bellabeat_final_report.pdf`: A detailed, comprehensive report in PDF format, suitable for presentations.
+
 
 ## **Analysis Overview**
 ### **Steps Involved in the Analysis**
@@ -85,7 +85,7 @@ The data analysis was conducted using the following steps:
    - Key statistics were calculated, such as the average number of steps taken per day, average sleep duration, and correlations between various health metrics like weight and steps.
 
 3. **Visualizations**:
-   - The following visualizations were created to help identify trends and relationships:
+   - The following visualizations among others were created to help identify trends and relationships:
      - **Total Steps vs Calories Burned**: Shows a positive correlation between steps taken and calories burned.
      - **Activity Intensity vs Calories Burned**: Demonstrates that higher intensity activity results in higher calories burned.
      - **Total Time in Bed vs Total Minutes Asleep**: Highlights users’ sleep efficiency by comparing time in bed and actual sleep time.
@@ -106,15 +106,15 @@ The data analysis was conducted using the following steps:
 1. **Prerequisites**:
    - Install the necessary R packages:
      ```R
-     install.packages(c("tidyverse", "ggplot2", "lubridate"))
+     install.packages(c("tidyverse", "ggplot2", "lubridate", "dplyr", "tidyr"))
      ```
 
 2. **Run the R Markdown File**:
-   - Open the `bellabeat_analysis.Rmd` file in RStudio.
-   - Knit the file to generate the HTML output, or run the chunks step-by-step to see the analysis in real-time.
+   - Open the `bellabeat-casestudy.ipynb` file in Jupyter notebook.
+
 
 3. **View the Final Report**:
-   - Open the `bellabeat_final_report.pdf` in the `/reports/` folder to view the comprehensive analysis with visualizations and key insights.
+   - Open the `Bellabeat Smart Device Data Analysis Report.pdf` to view the comprehensive analysis with visualizations and key insights.
 
 ## **Key Takeaways**
 The Bellabeat case study showcases how data-driven insights can inform a company’s marketing strategy. By analyzing user behavior around physical activity, sleep, and calorie burn, Bellabeat can tailor its product offerings to better meet the needs of its users. This case study can also be used as part of your data analytics portfolio to demonstrate your ability to perform real-world business tasks and extract actionable insights from data.
